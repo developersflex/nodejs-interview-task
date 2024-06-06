@@ -1,4 +1,4 @@
-# Flex Business Solutions Tech Test - Bookie
+# Flex Business Solutions Tech Test - BookStore
 
 In Flex Business Solutions, we aim to provide excellence and efficiency on all our lines of code in order to support the day-to-day activities of the company using our software solutions. In doing so, we use microservices to seperate the concerns of the codebase. Microservices help us when we need to make a change to functionality — and deploy that functionality in a way that the rest of the system doesn't have to change. 
 
