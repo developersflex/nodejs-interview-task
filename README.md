@@ -2,7 +2,7 @@
 
 In Flex Business Solutions, we aim to provide excellence and efficiency on all our lines of code in order to support the day-to-day activities of the company using our software solutions. In doing so, we use microservices to seperate the concerns of the codebase. Microservices help us when we need to make a change to functionality — and deploy that functionality in a way that the rest of the system doesn't have to change. 
 
-In this task, we would like you to build a simple BookStore API. It should provide a `user` service and an accompanying `book` service to work with. In this case the user service backs a front end admin tool allowing non-technical staff to interact with data. A request has been submitted by the stakeholders for a new admin feature:
+In this task, we would like you to build a simple BookStore API. It should provide a `user` service and an accompanying `book` service to work with. In this case the user service backs a front end admin tool allowing non-technical staff to interact with data. A request has been submitted by the stakeholders for a new user feature:
 
 ## Requirements
 
@@ -21,7 +21,6 @@ We prefer:
 - Unit testing
 
 ### Notes
-All of you work should take place inside the `admin` microservice
 
 We're interested in how you break down the work and build your solution in a clean, reusable and testable manner. You can use any packages that would help with this task.
 
@@ -37,22 +36,12 @@ We're interested in how you break down the work and build your solution in a cle
 
 On completion email a link to your repository to your contact at Flex Business Solutions and ensure it is publicly accessible.
 
-## Getting Started
-
-Please clone this repository and push it to your own github (or other) public repository
-To develop you will need to start each service seperately with
-
-```bash
-npm start
-or
-npm run develop
-```
-
-The develop command will run nodemon allowing you to make changes without restarting (they use ports 8081, 8082 and 8083)
+### Steps
+The develop command will run nodemon allowing you to make changes without restarting (they use ports 8081, 8082)
 Use Postman or any API tool of you choice to trigger your endpoints (this is how we will test your new route).
 
-### Existing routes
-We have provided a series of routes 
+### Routes to be created
+You should create the following routes:
 
 Users - localhost:8081
 - `/users` get all users
@@ -62,6 +51,3 @@ Users - localhost:8081
 Books - localhost:8082
 - `/books` get all book details
 - `/books/:id` get book by id
-
-Admin - localhost:8083
-- `/users/:id` get a user record by id
