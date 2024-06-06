@@ -2,11 +2,11 @@
 
 In Flex Business Solutions, we aim to provide excellence and efficiency on all our lines of code in order to support the day-to-day activities of the company using our software solutions. In doing so, we use microservices to seperate the concerns of the codebase. Microservices help us when we need to make a change to functionality — and deploy that functionality in a way that the rest of the system doesn't have to change. 
 
-In this task, you are given an example `admin` service and some accompanying services to work with. In this case the admin service backs a front end admin tool allowing non-technical staff to interact with data. A request has been submitted by the stakeholders for a new admin feature:
+In this task, we would like you to build a simple BookStore API. It should provide a `user` service and an accompanying `book` service to work with. In this case the user service backs a front end admin tool allowing non-technical staff to interact with data. A request has been submitted by the stakeholders for a new admin feature:
 
 ## Requirements
 
-- An admin is able to generate a csv formatted report showing the values of all user book readings
+- A user is able to generate a csv formatted report showing the values of all user book readings
     - The report should be sent to the `/export` route of the users service
     - The users service expects the report to be sent as csv text
     - The csv should contain a row for each user matching the following headers
